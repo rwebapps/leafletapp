@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Example map</title>
+
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<link rel="stylesheet" href="app.css">
+
+<script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script src="https://cdn.opencpu.org/opencpu-0.5.js"></script>
+<script src="app.js"></script>
+
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="col-sm-3">
+      <form>
+        <div class="form-group">
+          <label>Title</label>
+          <input type="text" class="form-control" id="mytitle" value="The birthplace of R">
+        </div>
+        <div class="form-group">
+          <label>Latitude</label>
+          <input type="number" class="form-control" id="mylat" value="-36.852">
+        </div>
+        <div class="form-group">
+          <label>Longitude</label>
+          <input type="number" class="form-control" id="mylng" value="174.768">
+        </div>
+        <button type="submit" id="mapsubmit" class="btn btn-default">Update Map!</button>
+      </form>
+    </div>
+  </div>
+
+<iframe src="about:blank"></iframe>
+
+</body>
+
+</html>
